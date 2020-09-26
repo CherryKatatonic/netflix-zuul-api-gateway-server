@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class ZuulLoggingFilter extends ZuulFilter {
     @Override
     public String filterType() {
-        return null;
+        return "pre";
     }
 
     @Override
